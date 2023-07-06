@@ -1,7 +1,7 @@
 import React, { useEffect, useState} from "react";
 import "./App.css"
 import Singlepage from "./Singlepage";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 
 const Home = () => {
@@ -53,10 +53,9 @@ const Home = () => {
   <p className="card-price">{curItem.price}</p>
     <p className="card-text">{curItem.description}</p>
     <p className="card-text">{curItem.category}</p>
-       <NavLink to={<Singlepage/>}>
-
+       
   <img src={curItem.image} className="card-img-top" alt="items" style={{width: "12rem", height: "12rem"}}/>
-       </NavLink>
+       
     <p className="rate" href="#">Rate: {curItem.rating.rate}</p>
     <p className="count" href="#">Count: {curItem.rating.count}</p>
   </div>
