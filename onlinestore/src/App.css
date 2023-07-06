@@ -1,88 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.card{
+    display:inline-flex;
+    margin-left: 62px;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
 }
 
-:root{
-    --color-131921: #131921;
-    --color-3b4149: #3b4149;
-    --color-febd69: #febd69;
-    --color-bf4800: #bf4800;
-    --color-f5f5f7: #f5f5f7;
-    --color-edded: #ededed;
-
-}
-.card-wrapper{
-    background-color: white;
-    box-shadow: 0 0 9px #cad1d8;
-    padding: 15px;
-}
-
-body{
-    font-family: 'Rubik', sans-serif;
-}
-
-a{
+.rating{
     text-decoration: none;
-    display: inline-block;
 }
-
-
-/* Header Part */
-
-.header-top-strip{
-    background-color: var(--color-131921);
-    border-bottom: 1px solid var(--color-3b4149);
-}
-
-.ml-1{
-    margin-left: 80px;
-}
-
-.header-upper{
-    background-color: var(--color-131921);
-}
-
-.form-control:focus{
-    border-color: red;
-    box-shadow: none;
-    border-color: inherit;
-}
-
-.bigi{
-    background-color: #e9e4de;
-}
-
-.header-upper .input-group-text{
-    cursor: pointer;
-    background-color: var(--color-febd69);
-}
-
-.header-botton{
-    background-color: var(--color-3b4149);
-    
-}
-
-.header-botton .menu-links a{
-    color: white;
-    letter-spacing: 0.3;
-    line-height: 18px;
-    font-weight: 400;
-    gap: 2rem;
-    text-transform: uppercase;
-
-}
-.dropdown{
-    gap: 2rem;
-}
-.gap-30{
-    gap: 15px;
-}
-
-.header-botton .dropdown button:focus {
-   box-shadow: none;
-
-}
-
-/* header part end */
